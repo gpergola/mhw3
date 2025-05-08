@@ -1,0 +1,532 @@
+@media (max-width: 768px) {
+    nav#bar{
+        flex-direction: column;
+        height: 100px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    nav#bar #mobilebar{
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu div{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 5px 0;
+    }
+
+    div#mobilebar #loginMobile{
+        display: block;
+    }
+
+    nav#bar #casella{
+        width:80vw;
+    }
+
+    #body .a{
+        display: none;
+    }
+
+    #body #nav2{
+        display: none;
+    }
+
+    section#foto{
+        flex-direction: column;
+        height:131vw;
+    }
+
+    div#boxfoto{
+        flex-direction: column;
+        height: 420vw;
+    }
+
+    div#boxfoto div img{
+        height:auto;
+        width: 90vw;
+    }
+
+    div#brandbox1 div img{
+        height: 7vw;
+    }
+
+    #body.button{
+        width: 400px;
+    }
+
+    div#buy{
+        height: 20vw;
+    }
+
+    div#sales{
+        text-align: center;
+        height: 20vw;
+    }
+
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#loginMobile{
+    display: none;
+}
+
+body{
+    margin: 0%;
+    width:100%;
+}
+
+header{
+    background-color: rgb(48, 45, 45);
+    height: 46px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4vw;
+    margin: 0;
+}
+
+a.link{
+    color: white;
+}
+
+header a:hover{
+    color: gray;
+}
+
+nav{
+    height: 80px;
+    border: 1px solid lightgray;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3vw;
+
+}
+
+.logo img{
+    width: 200px;   
+}
+
+#casella{
+    height: 44px;
+    color: gray;
+    width: 500px;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0px 1vw;
+    border-radius: 5px;
+}
+
+#casella:hover{
+    background-color: lightgray;
+}
+
+#lente img{
+    height: 20px;
+}
+
+nav .a{
+    font-family: 'roboto', arial, sans-serif;
+    font-size: small;
+    font-weight: 700;
+    padding:5px 15px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#lingua img{
+    height:20px;
+    margin-right: 5px;
+}
+
+#negozio img{
+    height:18px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+#login img{
+    height: 18px;
+    width: 20px;
+    margin-right: 5px;
+}
+nav .a:hover{
+    background-color: rgba(219, 219, 219, 0.262);
+}
+
+#nav2{
+    display:none;
+}
+
+#nav2{
+    height:56px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+#nav2 a{
+    font-family: 'roboto', arial, sans-serif;
+    margin: 10px;
+    font-weight: 700;
+}
+
+section{
+    height: 33vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section div img{
+    width: 100%;
+}
+
+#buy{
+    height: 90px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#testo2{
+    height:52.8px;
+    color:black;
+    font-family: 'roboto', arial, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.button{
+    width: 160.38px;
+    height: 50px;
+    background-color: black;
+    padding: 0px 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+.testo3{
+    font-family: 'roboto', arial, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+
+#saleIMG img{
+    width:100%;
+}
+
+#sales{
+    height: 90px;
+    padding: 24px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#testo4{
+    font-family: 'roboto', Arial, sans-serif;
+    color: black;
+}
+
+#boxfoto{
+    height: 52vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    
+}
+
+.boxtext1{  
+    height: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'roboto', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.boxtext2{
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.box3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.box1 div img{
+    height: 40vw;
+}
+
+#shoesbox{
+    width: 100%;
+    height: 150px;
+    display:grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+}
+
+#shoesbox div{
+    display: flex;
+    align-items: center;
+}
+
+#shoesbox a{
+    font-family: 'roboto', Arial, sans-serif;
+    text-align: center; 
+}
+
+#shoesbox img{
+    width: 16vw;
+}
+
+#brand{
+    height: 250px;
+    padding: 30px;
+}
+
+#brand a{
+    font-size: 30px;
+    font-family: 'roboto', Arial, sans-serif;
+    font-weight:900;
+}
+
+#brandbox1{
+    height: 168px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 100px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+#brandbox1 div img{
+    height: 2vw;
+}
+
+#brandbox1 div{
+    height: 80px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:4px;
+}
+
+#brandbox1 div:hover{
+    background-color: lightgray;
+}
+
+footer{
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+#footerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footertext{
+    color: gray;
+    font-size: 15px;
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 1000;
+    font-family: 'roboto', Arial, sans-serif;
+}
+
+#boxlang{
+    height: 30vw;
+    width: 60vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chooselang{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(211, 211, 211, 0.399);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+#lang{
+    width: 100%;
+    padding: 10px;
+}
+
+#close-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:10%;
+    cursor: pointer;
+}
+
+#close-lang img{
+    width: 1.5vw;    
+}
+
+#langbox-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lang-boxes{
+    width: 13%;
+    height: 20%;
+    border: 2px solid lightgray;
+}
+
+.modalneg{
+    width: 300px;
+    height: 70px;
+    padding: 16px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid lightgray;
+    top : 16%;
+    right: 20%;
+    background-color: white;
+    font-family: 'roboto', Arial, sans-serif;
+}
+
+#neg-modal-view a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#p2{
+    text-decoration-color: black;
+}
+
+#shop-view {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+#shop-view .prod {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    width: 200px;
+    height:300px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+#shop-view div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 190px;
+    height: 200px;
+}
+
+#shop-view img {
+    width: 100%;
+    height: 100%;
+  }
+
+.hidden{
+    display: none !important;
+}
+

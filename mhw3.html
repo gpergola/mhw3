@@ -1,0 +1,177 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Foot Locker</title>
+        <link rel="stylesheet" href="mhw3.css">
+        <script src="mhw3.js" defer></script>
+        <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+
+    </head>
+    <body id="body">
+        <header>
+            <a> <img src="fotomhw3\arrowIconsx.png"> </a>
+            <a class="link" href=""> Click & Collect </a>
+            <a> <img src="fotomhw3\arrowIcondx.png"></a>
+        </header>
+        <section id="lang-modal-view" class="hidden">
+            <div id="boxlang">
+                <div id="chooselang">
+                    <div id="lang">Scegli il Paese</div>
+                    <div id="close-lang"><img src="fotomhw3\close.png"></div>
+                </div>
+                <div id="langbox-container">
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                    <div class="lang-boxes"></div>
+                </div>
+            </div>
+        </section>
+        <section id="neg-modal-view" class="hidden modalneg">
+            <a>IL MIO NEGOZIO:</a>
+            <a id="p2" href="">Scegli un negozio preferito per facilitare i tuoi acquisti</a>
+        </section>
+
+        <nav id="bar">
+            <div id="mobilebar">
+                <div id="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo"> <img src="fotomhw3\logo.png"></div>
+                <div id="loginMobile"> <img src="fotomhw3\LoginIcon.png"></div>
+            </div>
+            <form>
+                <input id="casella" placeholder="Cerca"></input>
+                <input type="submit" value="Cerca" class="hidden"></input>
+            </form>
+            <div class="a" id="lingua"> <img src="fotomhw3\ITflag.png"> Italiano </div>
+            <div class="a" id="negozio"> <img src="fotomhw3\ShopIcon.png">Trova un negozio</div>
+            <div class="a" id="login"> <img src="fotomhw3\LoginIcon.png"> Accedi | Iscriviti a FLX</div>
+        </nav>
+        <div id="nav2">
+            <a>Uomo</a>
+            <a>Donna</a>
+            <a>Bambino</a>
+            <a>Nuovi Arrivi</a>
+            <a>Marche</a>
+            <a>Asics</a>
+            <a>Best Sellers</a>
+            <a>Sports</a>
+            <a>Offerte</a>
+        </div>                             
+        <div id="shop-view" class="hidden"></div>
+        <div id="shop-view2">
+        <section id="foto">
+            <div><img src="fotomhw3\foto1.png"></img></div>
+            <div><img src="fotomhw3\foto1.1.png"></img></div>
+        </section>
+        <div id="buy">
+            <div id="testo2">NIKE AIR MAX DN8</div>
+            <div class="button">
+                <div class="testo3">ACQUISTA ORA</div>
+                <div class="freccia"><img src="fotomhw3\arrowIcondx.png"></div>
+            </div>
+        </div>
+        <div id="saleIMG"><img src="fotomhw3\sales.png"></div>
+        <div id="sales">
+            <div id="testo4">Corri a prenderti il 20% di sconto su Nike. Offerta a tempo limitato. Non perdertela.</div>
+            <div class="button">
+                <div class="testo3">ACQUISTA ORA</div>
+                <div class="freccia"><img src="fotomhw3\arrowIcondx.png"></div>
+            </div>
+        </div>
+        <div id="boxfoto">
+            <div class="box1" id="boxA">
+                <div><img src="fotomhw3\box1.webp"></div>
+                <div class="box2" id="boxAA">
+                    <a class="boxtext1">Look total blue</a>
+                    <div class="box3" id="boxAAA">
+                        <a class="boxtext2"> <u>ACQUISTA </br> SCARPE</u></a>
+                        <a class="boxtext2"> <u>ACQUISTA </br>  ABBIGLIAMENTO</u></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box1" id="boxB">
+                <div><img src="fotomhw3\box2.webp"></div>
+                <div class="box2" id="boxBB">
+                        <a class="boxtext1"> An ode to The Originale</a>
+                        <a class="boxtext2"> <u>ACQUISTA ADIDAS</u></a>
+                </div>
+            </div>
+            <div class="box1" id="boxC">
+                <div><img src="fotomhw3\box3.webp"></div>
+                <div class="box2" id="boxCC">
+                    <a class="boxtext1"> Benedetta primavera</a>
+                    <a class="boxtext2"> <u>ACQUISTA ORA</u></a>
+                </div>
+            </div>
+        </div>
+        <div id="shoesbox">
+            <div><img src="fotomhw3\samba.webp"></div>
+            <div><img src="fotomhw3\shox.webp"></div>
+            <div><img src="fotomhw3\hoka.webp"></div>
+            <div><img src="fotomhw3\on.webp"></div>
+            <div><img src="fotomhw3\nb1000.webp"></div>
+            <div><img src="fotomhw3\nb9060.webp"></div>
+            <a>adidas Samba</a>
+            <a>Nike Shox</a>
+            <a>Hoka</a>
+            <a>On</a>
+            <a>New Balance 1000</a>
+            <a>New Balance 9060</a>
+        </div>
+        
+        <div id="brand">
+            <a>Aquista per brand</a>
+            <div id="brandbox1">
+                <div><img src="fotomhw3\adidas.png"></div>
+                <div><img src="fotomhw3\nike.png"></div>
+                <div><img src="fotomhw3\asics.png"></div>
+                <div><img src="fotomhw3\converse.png"></div>
+            
+                <div><img src="fotomhw3\jordan.png"></div>
+                <div><img src="fotomhw3\philpplein.png"></div>
+                <div><img src="fotomhw3\puma.png"></div>
+                <div><img src="fotomhw3\reebook.png"></div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div id="footerbox">
+                <div class="logo"><img src="fotomhw3\logo.png"></div>
+                <div class="footertext">© 2025 Footlocker.com, Inc. Tutti i diritti riservati</div>
+            </div>
+            <div class="footertext">Prezzi soggetti a modifiche senza preavviso. I prodotti mostrati potrebbero non essere disponibili nei nostri negozi.</div>
+        </footer>
+    </body>
+</html>
